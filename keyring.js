@@ -68,11 +68,10 @@ module.exports = {
   getPublicKey: getPublicKey,
   getPrivateKey: getPrivateKey,
   isLocked: isLocked,
-  unlock: unlock,
-  lock: lock,
+  unlockKey: unlockKey,
+  lockKey: lockKey,
   sign: sign,
   verify: verify,
   decrypt: decrypt,
   encrypt: encrypt
 }
-

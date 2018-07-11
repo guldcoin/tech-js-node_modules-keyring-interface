@@ -1,7 +1,7 @@
 {
   "name": "keyring-interface",
   "main": "keyring.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Interface for a generic keyring.",
   "repository": "https://github.com/isysd/keyring-interface",
   "author": "isysd <public@iramiller.com>",

@@ -3,12 +3,14 @@
   "main": "index.js",
   "version": "0.1.5",
   "description": "Interface for a generic keyring.",
-  "repository": "https://bitbucket.org/isysd/keyring-interface",
+  "repository": "https://bitbucket.org/guld/tech-js-node_modules-keyring-interface",
   "author": "isysd <public@iramiller.com>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --env browser *.js*",
-    "fix": "eslint --fix *.js*"
+    "fix": "eslint --fix *.js*",
+    "test": "mocha test/*.js",
+    "test:lint": "npm run lint && npm run test"
   },
   "dependencies": {},
   "devDependencies": {
@@ -33,8 +35,9 @@
   "engines": {
     "node": ">=7"
   },
-  "homepage": "https://bitbucket.org/isysd/tech-js-node_modules-keyring-interface#readme",
+  "homepage": "https://guld.tech/lib/keyring-interface.html",
   "keywords": [
-    "guld"
+    "guld",
+    "node"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "keyring-interface",
   "main": "index.js",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Interface for a generic keyring.",
   "repository": "https://bitbucket.org/guld/tech-js-node_modules-keyring-interface",
   "author": "isysd <public@iramiller.com>",
